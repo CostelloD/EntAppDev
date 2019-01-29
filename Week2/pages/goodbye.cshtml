@@ -1,0 +1,36 @@
+﻿@page
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>goodbye</title>
+</head>
+<body>
+
+    <h1>Goodbye from a .cshtml page</h1>
+
+    @{
+        var partOfDay = "morning";
+
+        if (DateTime.Now.Hour < 12)
+        {
+            partOfDay = "Morning";
+        }
+        else
+        {
+            partOfDay = "Afternoon";
+        }
+    }
+
+    <h2>
+        The time is @DateTime.Now in the @partOfDay.
+    </h2>
+
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿@page
+@model Week2.pages.ws1bModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ws1b</title>
+</head>
+<body>
+
+
+
+    <form method="post">
+        <input type="radio" name="radiobutton1" id="rb1" value="Sum" /> Add
+        <br />
+        <input type="radio" name="radiobutton1" id="rb2" value="Difference" /> Subtract
+        <br />
+        <input type="radio" name="radiobutton1" id="rb3" value="Product" /> Multiply
+        <br />
+        <input type="radio" name="radiobutton1" id="rb4" value="Quotient" /> Divide
+        <br />
+        <br />
+
+        <label for="number1">Enter your first number</label>
+        <input type="text" name="number1" value="" />
+        <br />
+        <br />
+
+
+        <label for="number2">Enter your second number</label>
+        <input type="text" name="number2" value="" />
+        <button type="submit">Click here to total</button>
+        <br />
+        <br />
+
+    </form>
+
+
+    <h2>The sum of your two numbers is @Model.sum</h2>
+
+    <h2>The @Model.Operation of your two numbers is @Model.Output</h2>
+
+
+
+
+
+</body>
+</html>
