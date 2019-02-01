@@ -12225,11 +12225,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ITSligo1\\EntAppDevel\\Week2\\Week2\\Week2.csproj",
+      "projectUniqueName": "C:\\Users\\DCostello\\Source\\Repos\\CostelloD\\EntAppDev\\Week2\\Week2.csproj",
       "projectName": "Week2",
-      "projectPath": "C:\\ITSligo1\\EntAppDevel\\Week2\\Week2\\Week2.csproj",
+      "projectPath": "C:\\Users\\DCostello\\Source\\Repos\\CostelloD\\EntAppDev\\Week2\\Week2.csproj",
       "packagesPath": "C:\\Users\\DCostello\\.nuget\\packages\\",
-      "outputPath": "C:\\ITSligo1\\EntAppDevel\\Week2\\Week2\\obj\\",
+      "outputPath": "C:\\Users\\DCostello\\Source\\Repos\\CostelloD\\EntAppDev\\Week2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
