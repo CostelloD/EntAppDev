@@ -50,3 +50,4 @@ C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.
 C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Week2.dll
 C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Week2.pdb
 C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Week2.csproj.CopyComplete
+C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Razor\pages\taghelpplay.g.cshtml.cs

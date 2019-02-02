@@ -1,0 +1,168 @@
+﻿@page
+@model Week2.pages.taghelpplayModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>taghelpplay</title>
+</head>
+<body>
+    <form method="post">
+
+        <label asp-for=Number1>
+            Enter your number here
+            <input asp-for=Number1 />
+            <button type="submit">Click Here</button>
+        </label>
+        <br />
+        <br />
+
+        <table style="border:solid">
+            <tr>
+                <td>
+                    <label asp-for=Int1>Enter Integer value</label>
+                </td>
+                <td>
+                    <input asp-for=Int1 />
+                    <button type="submit">Click Here</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label asp-for=Int2>Enter Integer value</label>
+                </td>
+                <td>
+                    <input asp-for=Int2 />
+                    <button type="submit">Click Here</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label asp-for=Double1>Enter double value</label>
+                </td>
+                <td>
+                    <input asp-for=Double1 />
+                    <button type="submit">Click Here</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label asp-for=Double2>Enter double value</label>
+                </td>
+                <td>
+                    <input asp-for=Double2 />
+                    <button type="submit">Click Here</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label asp-for=Decimal1>Enter decimal value</label>
+                </td>
+                <td>
+                    <input asp-for=Decimal1 />
+                    <button type="submit">Click Here</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label asp-for=Decimal2>Enter decimal value</label>
+                </td>
+                <td>
+                    <input asp-for=Decimal2 />
+                    <button type="submit">Click Here</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label asp-for=Float1>Enter float value</label>
+                </td>
+                <td>
+                    <input asp-for=Float1 />
+                    <button type="submit">Click Here</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label asp-for=Float2>Enter float value</label>
+                </td>
+                <td>
+                    <input asp-for=Float2 />
+                    <button type="submit">Click Here</button>
+                </td>
+            </tr>
+
+
+        </table>
+
+        <br />
+        <br />
+
+        <label asp-for=String>
+            Enter your string here
+            <input asp-for=String />
+            <button type="submit">Click Here</button>
+        </label>
+        <br />
+        <br />
+
+        <label asp-for=Datetime>
+            the date and time is: @Model.Datetime
+            <input asp-for=Datetime />
+            <button type="submit">Click Here</button>
+        </label>
+
+        <br />
+        <br />
+
+        <label asp-for=IsContacAllowed>
+            Is contact allowed?
+            <input asp-for=IsContacAllowed />
+            <button type="submit">Click Here</button>
+            @Model.IsContacAllowed
+        </label>
+        <br />
+        <br />
+
+        <label for="Winter">Winter</label>
+        <input type="radio" id="Winter" value="Winter" asp-for=Season />
+        <br />
+        <label for="Spring">Spring</label>
+        <input type="radio" id="Spring" value="Spring" asp-for=Season />
+        <br />
+        <label for="Summer">Summer</label>
+        <input type="radio" id="Summer" value="Summer" asp-for=Season />
+        <br />
+        <label for="Autumn">Autumn</label>
+        <input type="radio" id="Autumn" value="Autumn" asp-for=Season />
+        <br />
+        <button type="submit">Click here</button>
+
+
+        <br />
+        <h2>The season you selected was @Model.Season</h2>
+
+        <br />
+        <br />
+        <label asp-for=Test>
+            press here
+            <input type="radio" name="rb2" value="test" asp-for=Test />click
+        </label>
+
+    </form>
+
+
+
+
+
+
+
+
+</body>
+</html>
