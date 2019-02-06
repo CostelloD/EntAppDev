@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -36,7 +37,8 @@ namespace Week2.pages
         public string String { get; set; }
 
         [BindProperty]
-        public DateTime? Datetime { get; set; }
+        [DataType(DataType.Date)]
+        public DateTime Datetime { get; set; }
 
         [BindProperty]
         public bool IsContacAllowed { get; set; }

@@ -31,7 +31,6 @@ C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\bin\Debug\netcoreapp2.
 C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\bin\Debug\netcoreapp2.1\Week2.pdb
 C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\bin\Debug\netcoreapp2.1\Week2.Views.dll
 C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\bin\Debug\netcoreapp2.1\Week2.Views.pdb
-C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Week2.csprojAssemblyReference.cache
 C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Week2.csproj.CoreCompileInputs.cache
 C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Week2.RazorAssemblyInfo.cache
 C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Week2.RazorAssemblyInfo.cs
@@ -51,3 +50,4 @@ C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.
 C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Week2.pdb
 C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Week2.csproj.CopyComplete
 C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Razor\pages\taghelpplay.g.cshtml.cs
+C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Razor\pages\time.g.cshtml.cs

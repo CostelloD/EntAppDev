@@ -52,7 +52,7 @@ namespace AspNetCore
             WriteLiteral("\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(146, 98, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bd83fbb389424c7eb604ce24f84e37cc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "89c567923a2644959cdc42da3873bb35", async() => {
                 BeginContext(152, 85, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>ws1</title>\r\n");
                 EndContext();
@@ -72,7 +72,7 @@ namespace AspNetCore
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(246, 471, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d89387b6ae441d7ac43eed2d68b9da2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cced33fc167e4f73a928d531700aae73", async() => {
                 BeginContext(252, 52, true);
                 WriteLiteral("\r\n\r\n    <h1>List of Countries</h1>\r\n\r\n    <ul>\r\n\r\n\r\n");
                 EndContext();
@@ -116,7 +116,7 @@ namespace AspNetCore
                 WriteLiteral(" </h2>\r\n\r\n    ");
                 EndContext();
                 BeginContext(490, 208, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "86aefe50b8924300aa3bd381801755f5", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b00b858fa3147078b93406a5231341a", async() => {
                     BeginContext(510, 181, true);
                     WriteLiteral("\r\n        <label for=\"firstname\">Enter your Name</label>\r\n        <input type=\"text\" name=\"firstname\" value=\"firstname\" />\r\n        <button type=\"submit\">Click here</button>\r\n\r\n    ");
                     EndContext();
