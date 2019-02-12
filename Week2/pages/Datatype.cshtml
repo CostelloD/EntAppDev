@@ -1,0 +1,49 @@
+﻿@page
+@model Week2.pages.DatatypeModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Datatype</title>
+</head>
+<body>
+
+    <form method="get">
+
+        <button >Click Me</button>
+        <input type="button" name="name" value=""/>
+
+        @{ if (Model.typelist.Count != 0)
+            {
+                @for (int i = 0; i < Model.typelist.Count; i++)
+                {
+                    <input type="text" asp-for=selectlist[i] />
+                    <label asp-for=selectlist[i]>@Model.typelist[i]</label>
+                }
+
+                <ol>
+
+                    @{
+                        foreach (var item in Model.typelist)
+                        {
+                            <li>@item.ToString();</li>
+                        }
+                    }
+                </ol>
+            }
+        }
+
+    </form>
+
+
+    @*<h2>@Model.Day</h2>*@
+
+
+</body>
+</html>

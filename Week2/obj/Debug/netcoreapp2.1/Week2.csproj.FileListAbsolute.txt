@@ -51,3 +51,5 @@ C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.
 C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Week2.csproj.CopyComplete
 C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Razor\pages\taghelpplay.g.cshtml.cs
 C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Razor\pages\time.g.cshtml.cs
+C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Week2.csprojAssemblyReference.cache
+C:\Users\DCostello\Source\Repos\CostelloD\EntAppDev\Week2\obj\Debug\netcoreapp2.1\Razor\pages\Datatype.g.cshtml.cs
